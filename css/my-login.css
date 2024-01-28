@@ -1,5 +1,30 @@
 html,body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
 	height: 100%;
+}
+
+.header {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+}
+
+.main-heading {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Optional: Add some additional styling for a modern look */
+.main-heading::after {
+    content: '';
+    display: block;
+    margin: 10px auto;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
 }
 
 body.my-login-page {
