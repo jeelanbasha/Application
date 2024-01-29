@@ -1,0 +1,15 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "- [Login](https://jeelanbasha.github.io/Application/index.html) - [Register](https://jeelanbasha.github.io/Application/register.html) - [Forgot Password](https://jeelanbasha.github.io/Application/forgot.html) - [Reset Password](https://jeelanbasha.github.io/Application/reset.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ldapjs": "^3.0.7"
+  }
+}
