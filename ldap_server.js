@@ -9,7 +9,7 @@ const users = {
     dn: 'uid=user,ou=users,dc=mycompany,dc=com',
     attributes: {
       objectclass: ['top', 'person', 'uidObject'],
-      uid: 'user',
+      uid: 'user@xzy.com',
       userPassword: 'password',
     },
   },
